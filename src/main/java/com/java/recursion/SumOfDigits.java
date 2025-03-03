@@ -15,9 +15,12 @@ public class SumOfDigits {
             return 0;
         }
 
+<<<<<<< HEAD
         if (n<0) {
             return sumOfDigits(-1 * n);
         }
+=======
+>>>>>>> a439d8bdf638ebd1316cbbfaf38b1bef8f12e323
         return n%10 + sumOfDigits(n/10);
 
     }
