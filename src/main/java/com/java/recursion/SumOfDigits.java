@@ -14,7 +14,6 @@ public class SumOfDigits {
         if (n % 10 == 0){
             return 0;
         }
-
         if (n<0) {
             return sumOfDigits(-1 * n);
         }
